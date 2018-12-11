@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="350" prefWidth="600" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FXMLDocumentController">
+    <children>
+        <Label layoutX="20" layoutY="15" minHeight="16" minWidth="69" fx:id="labela" />
+        <TextField fx:id="uzorak" layoutX="80" layoutY="10" />
+        <Button layoutX="250" layoutY="10" text="Traži" onAction="#handleDugmeTrazi" fx:id="dugmeTrazi" />
+        <Button layoutX="300" layoutY="10" text="Prekini" fx:id="dugmePrekini" />
+        <ListView layoutX="10" layoutY="40" prefWidth="580" prefHeight="300" fx:id="lista"/>
+    </children>
+</AnchorPane>

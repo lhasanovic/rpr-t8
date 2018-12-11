@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FormaController">
+    <children>
+        <Label layoutX="20" layoutY="15" minHeight="16" minWidth="69" fx:id="labelaIme" />
+        <TextField fx:id="ime" layoutX="120" layoutY="10" />
+        <Label layoutX="20" layoutY="45" minHeight="16" minWidth="69" fx:id="labelaAdresa" />
+        <TextField fx:id="adresa" layoutX="120" layoutY="40" />
+        <Label layoutX="20" layoutY="75" minHeight="16" minWidth="69" fx:id="labelaGrad" />
+        <TextField fx:id="grad" layoutX="120" layoutY="70" />
+        <Label layoutX="20" layoutY="105" minHeight="16" minWidth="69" fx:id="labelaPostanskiBroj" />
+        <TextField fx:id="postanskiBroj" layoutX="120" layoutY="100" />
+    </children>
+</AnchorPane>
